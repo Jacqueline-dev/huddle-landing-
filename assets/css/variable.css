@@ -1,8 +1,9 @@
 :root{
   --pink-primary-color: hsl(322, 100%, 66%);
+  --purple-primary-color: hsl(256, 41%, 50%);
   --pink-light-color:  hsl(321, 100%, 78%);
   --red-light-color:hsl(0, 100%, 63%);
-
+ 
   --very-dark-cyan: hsl(192, 100%, 9%);
   --very-pale-blue: hsl(207, 100%, 98%);
 }
