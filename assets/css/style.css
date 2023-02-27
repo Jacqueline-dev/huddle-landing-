@@ -1,6 +1,43 @@
 body{
   background-color: var( --purple-primary-color);
   background-image: url(../image/bg-desktop.svg);
+  font-family: 'Open Sans', sans-serif;
+
  
+  max-width: 1440vw;
+}
+
+header{
+  height: 170px;
+  padding: 30px;
+}
+
+div{
+ display: flex; 
+ justify-content: center;  
+ align-self: center; 
+}
+
+.content {
+  display: block;
+}
+
+.title, .discription{
+  color: var(--very-pale); 
+}
+
+.button{
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: var(--very-pale);
+  border: none;
+  color: var(--purple-primary-color);
+  font-size: 17px;
+  box-shadow: 3px 3px 5px rgba(44, 44, 44, 0.452);
+  
   
 }
+
